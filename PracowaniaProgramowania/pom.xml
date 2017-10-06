@@ -20,6 +20,7 @@
                             <goal>single</goal>
                         </goals>
                         <configuration>
+                            <finalName>${project.artifactId}-${project.version}</finalName>
                             <attach>false</attach>
                             <appendAssemblyId>false</appendAssemblyId>
                             <archive>
@@ -29,7 +30,6 @@
                                     </mainClass>
                                 </manifest>
                             </archive>
-                            <finalName>${project.artifactId}-${project.version}</finalName>
                             <descriptorRefs>
                                 <descriptorRef>jar-with-dependencies</descriptorRef>
                             </descriptorRefs>
@@ -41,11 +41,15 @@
     </build>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/log4j/log4j -->
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
             <version>1.2.17</version>
         </dependency>
+
     </dependencies>
+
+
 
 </project>
