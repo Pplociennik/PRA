@@ -1,4 +1,4 @@
 # PRA
 Pracownia Programowania
 
-https://travis-ci.org/Pplociennik/PRA.svg?branch=master
+[![Build Status](https://travis-ci.org/Pplociennik/PRA.svg?branch=master)](https://travis-ci.org/Pplociennik/PRA)
